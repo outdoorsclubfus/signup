@@ -16,17 +16,30 @@
         <p>
         </p>
         
-        <form action="action.php" method="post">
-            Name: <input type="text" name="flname"/><br/><br/>
-            Phone: <input type="tel" name="phone"/><br/><br/>
-            Email: <input type="email" name="email"/><br/><br/>
-            Do you need rentals?<br/>
-                <input type="radio" name="rentals" value="yes"> Yes<br/>
-                <input type="radio" name="rentals" value="no"/> No<br/><br/>
-            Shoe size: <input type="text" name="shoe"/><br/><br/>
-            Height: <input type="text" name="height"/><br/><br/>
+        <form>
+            <label>Name:</label>
+            <input type="text" name="flname"/><br/><br/>
+            
+            <label>Phone:</label>
+            <input type="tel" name="phone"/><br/><br/>
+            
+            <label>Email:</label>
+            <input type="email" name="email"/><br/><br/>
+            
+            <label>Do you need rentals?</label>
+            <input type="radio" name="rentals" value="yes"> Yes<br/>
+            <input type="radio" name="rentals" value="no"/> No<br/><br/>
+            
+            
+            <label>Shoe size:</label>
+            <input type="text" name="shoe"/><br/><br/>
+            
+            <label>Height:</label>
+            <input type="text" name="height"/><br/><br/>
+            
             Can you drive?<br/>
-                <input type="radio" name="drive" value="yes"> Yes<br/>
+            <label>Yes</label>
+            <input type="radio" name="drive" value="yes">
                     <div class="reveal-if-active">
                         What is your car capacity (including yourself)?
                             <select>
@@ -41,7 +54,8 @@
                                 <option value="9+">9+</option>
                             </select>
                     </div>
-                <input type="radio" name="drive" value="no"> No<br/><br/>
+            <label>No</label>
+            <input type="radio" name="drive" value="no">
             Additional comments? <input type="text" name="comment"/><br/><br/>
             <input type="button" onclick ="check(this.form)" value="Submit Form"/>
         </form>
