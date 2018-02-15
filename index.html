@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Outdoors Club Sign Ups v1.32</title>
+        <title>Outdoors Club Sign Ups v1.33</title>
         <meta name="description" content="Outdoors Club Sign Ups">
         <link rel="stylesheet" href="main.css">
     </head>
@@ -29,10 +29,33 @@
             Do you need rentals?<br/>
             <input type="radio" name="rentals" value="yes"> Yes
                 <div class="reveal-if-active">
-                    <label>Shoe size:</label>
+                    <label text-indent: 50px;>Shoe size:</label>
                     <input type="text" name="shoe"/><br/>
-                    <label>Height:</label>
-                    <input type="text" name="height"/>
+                    <label text-indent: 50px;>Height:</label>
+                        <select name="htfeet">
+                            <option value="0">0'</option>
+                            <option value="1">1'</option>
+                            <option value="2">2'</option>
+                            <option value="3">3'</option>
+                            <option value="4">4'</option>
+                            <option value="5">5'</option>
+                            <option value="6">6'</option>
+                            <option value="7">7'</option>
+                        </select>
+                        <select name="htinches">
+                            <option value="0">0"</option>
+                            <option value="1">1"</option>
+                            <option value="2">2"</option>
+                            <option value="3">3"</option>
+                            <option value="4">4"</option>
+                            <option value="5">5"</option>
+                            <option value="6">6"</option>
+                            <option value="7">7"</option>
+                            <option value="8">8"</option>
+                            <option value="9">9"</option>
+                            <option value="10">10"</option>
+                            <option value="11">11"</option>
+                        </select>
                 </div>
             <input type="radio" name="rentals" value="no"/> No<br/><br/>
             
