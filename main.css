@@ -66,8 +66,9 @@ img {
 }
 
 input[type="radio"]:checked + .reveal-if-active{
+  display: block;
   opacity: 1;
-  max-height: 100px; /* little bit of a magic number :( */
+  max-height: 100px;
   overflow: visible;
 }
 
